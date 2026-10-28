@@ -1,0 +1,555 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#0a0a0a">
+    <meta name="description" content="Discover NIFEMZY premium streetwear. Bold designs, original style, and fashion beyond expectations.">
+
+    <title>NIFEMZY — Beyond Expectations</title>
+
+    <link rel="stylesheet" href="commerce.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ANNOUNCEMENT -->
+    <div class="announcement">
+        <span>✦</span> FREE SHIPPING ON ORDERS OVER ₦100,000
+        <span>✦</span>
+    </div>
+
+    <!-- HEADER -->
+    <header class="header">
+
+        <a href="#home" class="logo">
+            NIFEMZY<span>.</span>
+        </a>
+
+        <nav class="nav" id="nav">
+            <a href="#home">Home</a>
+            <a href="#shop">Collection</a>
+            <a href="#about">Our Story</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+
+            <button id="themeToggle" aria-label="Toggle theme">
+                <i class="fa-regular fa-moon"></i>
+            </button>
+
+            <button id="cartToggle" class="cart-button">
+                <i class="fa-solid fa-bag-shopping"></i>
+                Bag <span id="cartCount">0</span>
+            </button>
+
+            <button id="menuToggle" class="menu-toggle" aria-label="Toggle menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </div>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <span class="eyebrow">
+                    <span class="live-dot"></span>
+                    THE NEXT GENERATION OF STREETWEAR
+                </span>
+
+                <h1>
+                    NOT MADE<br>
+                    TO <span>BLEND IN.</span>
+                </h1>
+
+                <p>
+                    This is more than fashion. It's identity, confidence
+                    and a statement without saying a word.
+                    Welcome to a different standard.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#shop" class="primary-button">
+                        EXPLORE COLLECTION
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                    <a href="#about" class="text-button">
+                        Discover NIFEMZY
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+
+                    <div>
+                        <strong>01<span>.</span></strong>
+                        <span>Original Identity</span>
+                    </div>
+
+                    <div>
+                        <strong>∞</strong>
+                        <span>Unlimited Expression</span>
+                    </div>
+
+                    <div>
+                        <strong>100<span>%</span></strong>
+                        <span>Made to Stand Out</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="hero-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&fit=crop&w=1200&q=90"
+                    alt="Premium contemporary streetwear collection"
+                >
+
+                <div class="hero-image-overlay"></div>
+
+                <div class="floating-tag">
+                    <span>THE FIRST DROP</span>
+                    <strong>BEYOND EXPECTATIONS.</strong>
+                    <span>COLLECTION 001 / 2026</span>
+                </div>
+
+                <div class="vertical-text">
+                    NIFEMZY ORIGINALS
+                </div>
+
+            </div>
+
+            <div class="hero-index">001 — ORIGINALS</div>
+
+        </section>
+
+        <!-- BRAND MARQUEE -->
+        <section class="marquee" aria-label="Brand message">
+            <div class="marquee-track">
+                <span>BE DIFFERENT</span>
+                <span>✳</span>
+                <span>BE UNEXPECTED</span>
+                <span>✳</span>
+                <span>DEFINE YOUR LANE</span>
+                <span>✳</span>
+                <span>BE DIFFERENT</span>
+                <span>✳</span>
+                <span>BE UNEXPECTED</span>
+                <span>✳</span>
+                <span>DEFINE YOUR LANE</span>
+                <span>✳</span>
+            </div>
+        </section>
+
+        <!-- BENEFITS -->
+        <section class="benefits">
+
+            <div>
+                <i class="fa-solid fa-shirt"></i>
+                <span>Distinctive Designs</span>
+            </div>
+
+            <div>
+                <i class="fa-regular fa-gem"></i>
+                <span>Quality First</span>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-truck-fast"></i>
+                <span>Delivery Available</span>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-star"></i>
+                <span>Express Yourself</span>
+            </div>
+
+        </section>
+
+        <!-- SHOP -->
+        <section class="shop-section" id="shop">
+
+            <div class="section-heading">
+
+                <div>
+                    <span class="eyebrow">CURATED FOR THE DIFFERENT</span>
+                    <h2>THE <span>COLLECTION.</span></h2>
+                </div>
+
+                <p>
+                    No ordinary pieces.<br>
+                    No ordinary energy.
+                </p>
+
+            </div>
+
+            <!-- CATEGORIES -->
+            <div class="shop-controls">
+
+                <div class="categories" id="categories">
+                    <button class="category active" data-category="All">All Pieces</button>
+                    <button class="category" data-category="Hoodies">Hoodies</button>
+                    <button class="category" data-category="T-Shirts">T-Shirts</button>
+                    <button class="category" data-category="Caps">Caps</button>
+                    <button class="category" data-category="Accessories">Accessories</button>
+                </div>
+
+                <div class="search-sort">
+
+                    <div class="search-box">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+
+                        <input
+                            type="search"
+                            id="searchInput"
+                            placeholder="Find your style..."
+                            aria-label="Search products"
+                        >
+                    </div>
+
+                    <select id="sortSelect" aria-label="Sort products">
+                        <option value="default">Featured</option>
+                        <option value="low">Price: Low to High</option>
+                        <option value="high">Price: High to Low</option>
+                        <option value="name">Name: A–Z</option>
+                    </select>
+
+                </div>
+
+            </div>
+
+            <!-- JAVASCRIPT RENDERS PRODUCTS HERE -->
+            <div class="product-grid" id="productGrid"></div>
+
+            <p class="empty-message" id="emptyMessage" hidden>
+                Nothing here yet. Try another search.
+            </p>
+
+            <div class="collection-bottom">
+                <span>YOUR STYLE. YOUR RULES.</span>
+                <a href="#contact">
+                    NEED HELP CHOOSING?
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+
+        </section>
+
+        <!-- EDITORIAL IMAGE SECTION -->
+        <section class="editorial">
+
+            <div class="editorial-image">
+                <img
+                    src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1200&q=90"
+                    alt="Contemporary streetwear editorial fashion"
+                    loading="lazy"
+                >
+
+                <span class="editorial-number">N° 001</span>
+            </div>
+
+            <div class="editorial-content">
+
+                <span class="eyebrow">NOT FOR EVERYBODY</span>
+
+                <h2>
+                    WEAR YOUR<br>
+                    <span>OWN STORY.</span>
+                </h2>
+
+                <p>
+                    Fashion shouldn't tell you who to be.
+                    It should give you the freedom to show the world
+                    who you already are.
+                </p>
+
+                <p>
+                    NIFEMZY exists for the creative minds,
+                    the fearless thinkers and the ones who
+                    choose their own direction.
+                </p>
+
+                <a href="#shop" class="primary-button">
+                    FIND YOUR PIECE
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- ABOUT -->
+        <section class="promo" id="about">
+
+            <div class="promo-background-text">NIFEMZY</div>
+
+            <div class="promo-content">
+
+                <span class="eyebrow">THE NIFEMZY PHILOSOPHY</span>
+
+                <h2>
+                    DON'T FOLLOW<br>
+                    THE CROWD.<br>
+                    <span>SET THE PACE.</span>
+                </h2>
+
+                <p>
+                    Built on creativity, confidence and originality.
+                    NIFEMZY is for people who know that being different
+                    is not a weakness — it's the whole point.
+                </p>
+
+                <a href="#shop" class="light-button">
+                    EXPLORE THE BRAND
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+            <div class="promo-side-note">
+                BEYOND EXPECTATIONS / EST. 2026
+            </div>
+
+        </section>
+
+        <!-- SOCIALS -->
+        <section class="social-section">
+
+            <div class="section-heading">
+
+                <div>
+                    <span class="eyebrow">JOIN THE MOVEMENT</span>
+                    <h2>THE WORLD OF <span>NIFEMZY.</span></h2>
+                </div>
+
+                <p>
+                    Follow the journey.<br>
+                    Be part of the next drop.
+                </p>
+
+            </div>
+
+            <div class="social-grid">
+
+                <a
+                    href="https://www.instagram.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-card instagram-card"
+                >
+                    <i class="fa-brands fa-instagram"></i>
+
+                    <div>
+                        <span>FOLLOW OUR JOURNEY</span>
+                        <strong>INSTAGRAM ↗</strong>
+                    </div>
+                </a>
+
+                <a
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-card facebook-card"
+                >
+                    <i class="fa-brands fa-facebook-f"></i>
+
+                    <div>
+                        <span>CONNECT WITH US</span>
+                        <strong>FACEBOOK ↗</strong>
+                    </div>
+                </a>
+
+            </div>
+
+            <p class="social-note">
+                Replace the social links with your official NIFEMZY
+                Instagram and Facebook profile URLs when they're ready.
+            </p>
+
+        </section>
+
+        <!-- NEWSLETTER -->
+        <section class="newsletter" id="contact">
+
+            <span class="eyebrow">ACCESS THE NEXT DROP</span>
+
+            <h2>
+                BE FIRST.<br>
+                <span>BE DIFFERENT.</span>
+            </h2>
+
+            <p>
+                Stay connected for new collections, product updates
+                and everything happening at NIFEMZY.
+            </p>
+
+            <form id="newsletterForm">
+
+                <input
+                    type="email"
+                    id="emailInput"
+                    placeholder="Enter your email address"
+                    aria-label="Email address"
+                    required
+                >
+
+                <button type="submit">
+                    JOIN THE LIST
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </form>
+
+            <p id="newsletterMessage" role="status"></p>
+
+            <span class="newsletter-small">
+                NIFEMZY ORIGINALS · BEYOND EXPECTATIONS
+            </span>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer-top">
+
+            <div class="footer-brand">
+                <a href="#home" class="logo">
+                    NIFEMZY<span>.</span>
+                </a>
+
+                <p>
+                    Beyond expectations.<br>
+                    Beyond the ordinary.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <strong>EXPLORE</strong>
+                <a href="#home">Home</a>
+                <a href="#shop">Collection</a>
+                <a href="#about">Our Story</a>
+            </div>
+
+            <div class="footer-links">
+                <strong>CONNECT</strong>
+
+                <a href="https://www.instagram.com/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Instagram
+                </a>
+
+                <a href="https://www.facebook.com/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Facebook
+                </a>
+
+                <a href="https://wa.me/2347015784892"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    WhatsApp
+                </a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>
+                © <span id="year"></span> NIFEMZY. ALL RIGHTS RESERVED.
+            </p>
+
+            <a href="#home">
+                BACK TO TOP ↑
+            </a>
+
+        </div>
+
+    </footer>
+
+    <!-- CART OVERLAY -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- SHOPPING CART -->
+    <aside class="cart-panel" id="cartPanel" aria-label="Shopping cart">
+
+        <div class="cart-heading">
+
+            <div>
+                <span class="eyebrow">YOUR SELECTION</span>
+                <h2>Your bag <span id="cartHeadingCount">(0)</span></h2>
+            </div>
+
+            <button
+                id="closeCart"
+                class="close-button"
+                aria-label="Close cart"
+            >
+                ×
+            </button>
+
+        </div>
+
+        <div class="cart-items" id="cartItems"></div>
+
+        <div class="cart-footer">
+
+            <div class="subtotal">
+                <span>Subtotal</span>
+                <strong id="cartSubtotal">₦0</strong>
+            </div>
+
+            <p>
+                Shipping and any applicable fees are calculated at checkout.
+            </p>
+
+            <button class="checkout-button" id="checkoutButton">
+                Continue to Checkout →
+            </button>
+
+        </div>
+
+    </aside>
+
+    <!-- TOAST NOTIFICATION -->
+    <div class="toast" id="toast" role="status"></div>
+
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <a
+        href="https://wa.me/2347015784892?text=Hello%20NIFEMZY%2C%20I%27m%20interested%20in%20your%20collection."
+        class="whatsapp-float"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Chat with NIFEMZY on WhatsApp"
+    >
+        <i class="fa-brands fa-whatsapp"></i>
+        <span>Chat with us</span>
+    </a>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
